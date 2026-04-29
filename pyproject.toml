@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "routine-helper-ops"
+version = "0.1.0"
+description = "A minimal Python app scaffold for Routine Helper OPS"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Routine Helper OPS"}]
+
+[project.scripts]
+routine-helper = "app:main"
